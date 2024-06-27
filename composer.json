@@ -1,0 +1,21 @@
+{
+    "name": "mgtwizards/module-image-clean",
+    "description": "N/A",
+    "require": {
+        "php": ">=5.5|>=7|>=8",
+        "mgtwizards/module-base": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.1.2",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MgtWizards\\ImageClean\\": ""
+        }
+    }
+}

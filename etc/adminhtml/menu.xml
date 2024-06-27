@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="MgtWizards_ImageClean::image" title="Image Clean" module="MgtWizards_ImageClean" sortOrder="10" resource="MgtWizards_ImageClean::image" parent="mgtwizards_base::core"/>
+		  <add id="MgtWizards_ImageClean::fetch" title="Fetch Images" module="MgtWizards_ImageClean" sortOrder="20" parent="MgtWizards_ImageClean::image" action="imageclean/image" resource="MgtWizards_ImageClean::fetch"/>
+    </menu>
+</config>
